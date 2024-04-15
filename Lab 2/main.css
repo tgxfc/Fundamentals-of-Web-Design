@@ -1,0 +1,87 @@
+body{
+    width:800px;
+    height:600px;
+    margin: 0 auto auto;
+    background:white;
+    font-family:Sans-Serif;
+}
+
+header{
+    width:inherit;
+    background:url("img/navigation-background.jpg");
+    height:30px;
+    padding:4px;
+    position:absolute;
+    top:40px;
+}
+.lista{
+    margin-left:120px;
+    padding:4px;
+}
+.list{
+    margin:0;
+    padding-left:10px;
+    padding-right:10px;
+    color:#ffffff;
+    font-size:18px;
+    text-decoration:none;
+}
+.leaf{
+    height:120px;
+    position:relative;
+}
+
+.container{
+    width:inherit;
+    height:420px;
+    display:flex;
+}
+.levo{
+}
+.desno{
+    flex-grow:1;
+}
+.desno img{
+    width:407px;
+    margin-left:10px;
+}
+.levo h1{
+    text-align:center;
+    color:#92CD00;
+    font-size:26px;
+}
+.levo p,ol,dl{
+    text-align:justify;
+    color:#192402;
+    /*font-weight:bold;*/
+}
+.fix{
+    position:relative;
+    top:-15px;
+}
+.fix1{
+    position:relative;
+    top:30px;
+}
+.fix2{
+    position:relative;
+    top:70px;
+}
+#fix3{
+    text-align: initial;
+}
+.yellow{
+    background-color:yellow;
+}
+
+footer{
+    width:inherit;
+    height:30px;
+    position:absolute;
+    color:#ffffff;
+    background:#81b518;
+}
+footer p{
+    margin:6px;
+    text-align:center;
+}
