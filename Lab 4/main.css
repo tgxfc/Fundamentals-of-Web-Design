@@ -1,0 +1,163 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    border-bottom: black solid medium;
+}
+header>div{
+    margin:15px;
+}
+header div a{
+    margin-left:50px;
+    color:gray;
+    text-decoration: none;
+}
+header div>a:active, header div>a:focus, header div>a:target{
+    color:green;
+}
+
+
+
+.Index-Top{
+    margin-top:10px;
+    margin-bottom:20px;
+    display:flex;
+    background:darkblue;
+    padding:10px 70px;
+    justify-content: space-between;
+}
+.Index-Top div{
+    margin: 150px 0px;
+    color:white;
+    font-size: 24px;
+}
+.Index-Top img{
+    margin-right:30px;
+}
+.Index-Bottom{
+    margin-top:20px;
+    margin-bottom:10px;
+    padding:15px 70px;
+    display:flex;
+    flex-direction: column;
+    background:mediumseagreen;
+}
+.Index-Bottom div{
+    display:flex;
+}
+.Index-Bottom-p1 img{
+    height:175px;
+    border-radius:30px;
+    margin-right:20px;
+}
+.Index-Bottom-p1 p{
+    margin-top:35px;
+    text-align:justify;
+}
+.Index-Bottom-p2 img{
+    height:175px;
+    border-radius:30px;
+    margin-left:10px;
+}
+.Index-Bottom-p2 p{
+    margin-top:35px;
+    text-align:justify;
+}
+
+.Tab{
+    background:lightgreen;
+    display:flex;
+    padding: 0 85px 0 75px;
+    margin-top:10px;
+    margin-bottom:20px;
+    justify-content: space-between;
+    color:white;
+}
+.Tab>p{
+    font-weight:bold;
+    padding-top:20px;
+}
+.Info{
+    background:lightgray;
+}
+.InfoTab{
+    margin: 20px 70px 10px;
+    padding:5px;
+}
+.InfoTab>h1{
+    text-align: center;
+    color:white;
+    padding:15px;
+    border-bottom:#80808054 double 2px;
+    border-top:#80808054 double 2px;
+}
+.InfoTab>div{
+    display:flex;
+    margin-left:20px;
+    margin-right:20px;
+}
+.Team{
+    display:flex;
+    flex-direction: column;
+    background:white;
+    border-radius:15px;
+    align-items: center;
+    margin:25px;
+}
+.Team>img{
+    width:270px;
+    margin-top:15px;
+}
+.Team>p{
+    text-align:justify;
+    padding:10px;
+    font-weight:bold;
+    margin:10px;
+    margin-bottom:15px;
+    border-top:black solid 2px;
+}
+.Team>h1{
+    margin-bottom:10px;
+}
+
+.InfoContact{
+    margin: 20px 70px 10px;
+    padding-top:20px;
+    display:flex;
+    flex-direction: column;
+}
+.InfoTop{
+    display:flex;
+}
+.InfoTop h1{
+    color:white;
+}
+
+.InfoBottom{
+    text-align:right;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.InfoBottom p{
+
+}
+
+
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 70px;
+    border-top: black solid medium;
+}
+footer>div{
+    margin:15px;
+}
+footer div a{
+    margin-left:50px;
+    color:gray;
+    text-decoration: none;
+}
+footer div>a:active, footer div>a:target, footer div>a:focus{
+    color:green;
+}
